@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header'
+import Sidebar from "./components/SideBar/Sidebar";
+import ProfilePage from "./components/ProfilePage/ProfilePage";
+import Dialogs from "./components/Dialogs/Dialogs";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div className="app_wrapper">
+            <Header/>
+            <Sidebar/>
+            {/*<ProfilePage/>*/}
+            <Dialogs/>
+            <footer></footer>
+        </div>
+    )
+};
 
 export default App;

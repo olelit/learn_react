@@ -1,0 +1,7 @@
+.sidebar__a {
+    font-size: 20px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}

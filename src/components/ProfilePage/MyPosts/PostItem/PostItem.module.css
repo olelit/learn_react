@@ -1,0 +1,10 @@
+.post_item {
+    display: flex;
+}
+
+.post {
+    padding: 2%;
+    border-radius: 10px;
+    background-color: gainsboro;
+    width:300px;
+}

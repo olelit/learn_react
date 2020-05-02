@@ -1,0 +1,9 @@
+.button_custom {
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+}
+
+.button_green {
+    background-color: limegreen;
+}

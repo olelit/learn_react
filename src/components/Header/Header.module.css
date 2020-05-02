@@ -1,0 +1,10 @@
+.logo {
+    width: 75px;
+    padding: 10px;
+}
+
+.header {
+    grid-area: header;
+}
+
+
