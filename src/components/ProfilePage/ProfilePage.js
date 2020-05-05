@@ -2,10 +2,13 @@ import React from 'react';
 import avatar from "../../image/default_avatar.png";
 import classes from './ProfilePage.module.css';
 import MyPosts from "./MyPosts/MyPosts";
+import Title from "../Title/Title";
 
 const ProfilePage = () => {
     return (
-        <main className={classes.content}>
+
+        <div>
+            <Title title="My profile"/>
             <div className={classes.main_info + " mt-10_custom"}>
                 <div className="css_mr_10">
                     <img className="avatar rounded" src={avatar} alt=""/>
@@ -19,7 +22,7 @@ const ProfilePage = () => {
                 </div>
             </div>
             <MyPosts/>
-        </main>
+        </div>
     )
 };
 

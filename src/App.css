@@ -11,6 +11,10 @@ a {
     margin-top: 10px;
 }
 
+.content {
+    width: 1000px;
+    margin: 0 auto;
+}
 
 .skyblue {
     background-color: skyblue;
@@ -46,3 +50,4 @@ main {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
+
